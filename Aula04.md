@@ -1,16 +1,19 @@
 # INTRODUÇÃO NMAP - Aula prática
 Nmap scan report for scanme.nmap.org (45.33.32.156)
+
 Host is up (0.33s latency).
+
 Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+
 Not shown: 994 closed tcp ports (conn-refused)
+
 PORT      STATE SERVICE    VERSION
-22/tcp    open  ssh        OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
-80/tcp    open  http       Apache httpd 2.4.7 ((Ubuntu))
-2000/tcp  open  tcpwrapped
-5060/tcp  open  tcpwrapped
-9929/tcp  open  nping-echo Nping echo
-31337/tcp open  tcpwrapped
-Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernelnmap -sV -T4 
+- 22/tcp    open  ssh        OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
+- 80/tcp    open  http       Apache httpd 2.4.7 ((Ubuntu))
+- 2000/tcp  open  tcpwrapped
+- 5060/tcp  open  tcpwrapped
+- 9929/tcp  open  nping-echo Nping echo
+- 31337/tcp open  tcpwrappedService Info: OS: Linux; CPE: cpe:/o:linux:linux_kernelnmap -sV -T4 
 
 As portas abertas e seus respectivos serviços são:
 22/tcp - ssh
